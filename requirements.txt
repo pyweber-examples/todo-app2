@@ -1,1 +1,2 @@
 pyweber
+uvicorn[standard]
