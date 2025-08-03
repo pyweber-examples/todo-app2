@@ -6,7 +6,7 @@ app = pw.Pyweber()
 class Todo(pw.Template):
     def __init__(self):
         super().__init__(template='', title='Todo App')
-        self.head.add_child(pw.Style(href='../app/src/style.css'))
+        self.head.add_child(pw.Style(href='..src/style.css'))
         self.body.add_child(Main())
 
 @app.route('/')

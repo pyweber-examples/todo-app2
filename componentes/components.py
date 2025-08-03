@@ -1,5 +1,4 @@
 import pyweber as pw
-import asyncio
 
 class Title(pw.Element):
     def __init__(self, content: str):
